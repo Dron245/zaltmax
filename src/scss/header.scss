@@ -3,13 +3,13 @@
 //====================================================================================================
 
 //Burger
-/*
+
 .icon-menu {
 	display: none;
 	@media (max-width: $mobile) {
 		display: block;
 		position: relative;
-		width: rem(30);
+		flex: 0 0 30px;
 		height: rem(18);
 		cursor: pointer;
 		z-index: 5;
@@ -51,4 +51,4 @@
 		}
 	}
 }
-*/
+
