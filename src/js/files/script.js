@@ -16,6 +16,8 @@ function documentActions(e) {
 	const targetElement = e.target;
 	if (targetElement.closest('[data-parent]')) {
 		const subMenuId = targetElement.dataset.parent ? targetElement.dataset.parent : null;
+		console.log(subMenuId);
+		console.log(document.querySelector('._sub-menu-open'));
 		const subMenu = document.querySelector(`[data-submenu="${subMenuId}"]`);
 		if (subMenu) {
 			const activeLink = document.querySelector('._sub-menu-active');
