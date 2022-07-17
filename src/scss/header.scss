@@ -216,6 +216,9 @@
 		&::placeholder {
 			color: rgba(0, 0, 0, 0.5);
 		}
+		@media (max-width:$tablet){
+			border: 1px solid gold;
+		}
 	}
 	@media (max-width: $mobileSmall) {
 		background-color: #fff;
