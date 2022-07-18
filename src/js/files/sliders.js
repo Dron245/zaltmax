@@ -131,7 +131,7 @@ function initSliders() {
 			}
 		});
 	}
-	if (document.querySelector('.products-slider')) { // Указываем скласс нужного слайдера
+	if (document.querySelector('.products-slider__slider')) { // Указываем скласс нужного слайдера
 		// Создаем слайдер
 		new Swiper('.products-slider__slider', { // Указываем скласс нужного слайдера
 			// Подключаем модули слайдера
