@@ -38,9 +38,10 @@ function bildSliders() {
 		});
 	}
 }
-
 // Инициализация слайдеров
 function initSliders() {
+
+	
 	bildSliders();
 	// Перечень слайдеров
 	// Проверяем, есть ли слайдер на стронице

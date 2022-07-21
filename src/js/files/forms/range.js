@@ -21,7 +21,12 @@ export function rangeInit() {
 				range: {
 					'min': [Number(fromValue.dataset.rangeFrom)],
 					'max': [Number(toValue.dataset.rangeTo)]
-				}
+				},
+				/*format: wNumb({
+					decimals: 2,
+					thousand: '.',
+					suffix: ' (US $)'
+			  })*/
 			});
 			item.noUiSlider.on('update', function (values, handle) {
 				fromValue.value = values[handle];
