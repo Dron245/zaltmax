@@ -130,7 +130,7 @@ body {
 // Подключение стилей общих элементов проекта
 @import "common";
 @import "catalog";
-//@import "product";
+@import "product";
 
 // Подключение стилей отдельных блоков
 @import "header";
